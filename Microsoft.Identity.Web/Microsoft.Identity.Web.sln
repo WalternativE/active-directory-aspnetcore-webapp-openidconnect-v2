@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Identity.Web", "Microsoft.Identity.Web.csproj", "{BD795319-75B8-4251-AE92-8DD5A807C28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Identity.Web.Test", "..\Microsoft.Identity.Web.Test\Microsoft.Identity.Web.Test.csproj", "{9F00FB40-D67A-4E39-8167-C47922DA96A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Identity.Web.Test", "..\Microsoft.Identity.Web.Test\Microsoft.Identity.Web.Test.csproj", "{9F00FB40-D67A-4E39-8167-C47922DA96A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7990A46A-B7F7-4EC6-AC55-26266B3BE1A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
